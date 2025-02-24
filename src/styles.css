@@ -1,0 +1,125 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #1d72b8;
+    color: #fff;
+}
+
+nav a.active {
+    background-color: #005f99;
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.company-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.company-list h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.company-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.company-table th, .company-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.company-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+.company-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.company-table a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.company-table a:hover {
+    text-decoration: underline;
+}
+
+.add-company {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-company h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.add-company form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-company input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.add-company button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.add-company button:hover {
+    background-color: #0056b3;
+}
